@@ -1,0 +1,3 @@
+Other validation performed:
+
+- When EnergySplit desactivated -> Recover quadratic problem for displacement (Displacement converges within a sinle iteration in a staggered scheme).

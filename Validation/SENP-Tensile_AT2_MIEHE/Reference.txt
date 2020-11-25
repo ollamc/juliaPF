@@ -1,0 +1,1 @@
+C. Miehe, M. Hofacker, and F. Welschinger, “A phase field model for rate-independent crack propagation: Robust algorithmic implementation based on operator splits,” Computer Methods in Applied Mechanics and Engineering, vol. 199, no. 45–48, pp. 2765–2778, Nov. 2010, doi: 10.1016/j.cma.2010.04.011.
