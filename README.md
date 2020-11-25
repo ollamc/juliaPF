@@ -1,5 +1,6 @@
-# juliaPF <img align="right" width="300" height="300" src="/images/cover.PNG">
-Julia implementation(s) of phase-field models (PFMs) for fracture.
+# juliaPF
+<img align="right" width="270" height="270" src="/images/cover.PNG">
+Julia implementation(s) of phase-field models (PFMs) for fracture. 
 
 The script FEM.jl contains the Julia implementation of the quasi-static AT1 phase-field model.
 Each time step is solved using the modified Newton scheme presented in the paper "An efficient and robust monolithic approach to phase-field quasi-static brittle fracture using a modified Newton method".
