@@ -20,8 +20,8 @@ You might need to build Pardiso after adding the package with the command "Pkg.b
 To run a simulation, 2 options are available:
 1. 	- Open a terminal and place yourself in the directory containing the mesh files, the FEM.jl script and main_tensile.jl script.
 	- Open a Julia session (if properly installed, on Linux, simply call "julia". Otherwise see Julia documentation).
-	- To read and compile the FEM.jl script, execute: 	include("FEM.jl")
-	- To launch the simulation, execute: 				include("main_tensile.jl")
+	- To read and compile the FEM.jl script, execute: 	include("FEM.jl").
+	- To launch the simulation, execute: 				include("main_tensile.jl").
 	
 2. If you have Atom (text editor) and Juno (Atom environment for the Julia language) installed, then simply:
 	- Open and execute the FEM.jl file with Atom+Juno (Ctrl + Shift + Enter to execute the file).
@@ -29,14 +29,14 @@ To run a simulation, 2 options are available:
 
 ## Others
 The **Others** folder contains new and/or non-validated implementation of the:
-- Length-scale insensitive cohesive PFM (Wu and Nguyen 2018)
-- AT2 model (Bourdin et al. 2000)
+- Length-scale insensitive cohesive PFM (Wu and Nguyen 2018).
+- AT2 model (Bourdin et al. 2000).
 
 ## Geometries
 **Geometries** contains the mesh used for multiple geometries or benchmarks:
-- Single-edge notched plate submitted to tensile (**SENP-tensile**)
-- Single-edge notched plate submitted to shear (**SENP-shear**)
-- Three-point bending notched (**3Point-n**)
-- Three-point bending pre-cracked (**3Point-c**)
-- L-shaped panel (**L-shaped**)
-- Notched bilayer (**Bilayer**)
+- Single-edge notched plate submitted to tensile (**SENP-tensile**).
+- Single-edge notched plate submitted to shear (**SENP-shear**).
+- Three-point bending notched (**3Point-n**).
+- Three-point bending pre-cracked (**3Point-c**).
+- L-shaped panel (**L-shaped**).
+- Notched bilayer (**Bilayer**).
