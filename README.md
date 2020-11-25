@@ -10,7 +10,6 @@ The script main_tensile.jl contains the pre-processing and settings of the probl
 The **Validation** folder contains two examples of validation tests: 
 
 1. SENP-tensile from Miehe 2010. ***Attention***: The script FEM.jl used to validate against Miehe's results contains the AT2 model.
-
 2. Uniaxial traction test from Pham et al. 2011 and reused in Wu et al. 2018 (see the reference documents in the validation directory).
 
 ## Dependencies and usage
@@ -22,7 +21,6 @@ To run a simulation, 2 options are available:
 	- Open a Julia session (if properly installed, on Linux, simply call "julia". Otherwise see Julia documentation).
 	- To read and compile the FEM.jl script, execute: 	include("FEM.jl").
 	- To launch the simulation, execute: 				include("main_tensile.jl").
-	
 2. If you have Atom (text editor) and Juno (Atom environment for the Julia language) installed, then simply:
 	- Open and execute the FEM.jl file with Atom+Juno (Ctrl + Shift + Enter to execute the file).
 	- Open and execute the main_tensile file with Atom+Juno (Ctrl + Shift + Enter to execute the file).
