@@ -37,6 +37,5 @@ The **Others** folder contains new and/or non-validated implementation of the:
 - Single-edge notched plate submitted to tensile (**SENP-tensile**).
 - Single-edge notched plate submitted to shear (**SENP-shear**).
 - Three-point bending notched (**3Point-n**).
-- Three-point bending pre-cracked (**3Point-c**).
 - L-shaped panel (**L-shaped**).
 - Notched bilayer (**Bilayer**).
