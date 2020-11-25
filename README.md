@@ -1,5 +1,5 @@
 # juliaPF
-Julia implementation(s) of phase-field models for fracture.
+Julia implementation(s) of phase-field models (PFMs) for fracture.
 
 The script FEM.jl contains the Julia implementation of the quasi-static AT1 phase-field model.
 Each time step is solved using the modified Newton scheme presented in the paper "An efficient and robust monolithic approach to phase-field quasi-static brittle fracture using a modified Newton method".
@@ -26,3 +26,17 @@ To run a simulation, 2 options are available:
 2. If you have Atom (text editor) and Juno (Atom environment for the Julia language) installed, then simply:
 	- Open and execute the FEM.jl file with Atom+Juno (Ctrl + Shift + Enter to execute the file).
 	- Open and execute the main_tensile file with Atom+Juno (Ctrl + Shift + Enter to execute the file).
+
+## Others
+The **Others** folder contains new and/or non-validated implementation of the:
+- Length-scale insensitive cohesive PFM (Wu and Nguyen 2018)
+- AT2 model (Bourdin et al. 2000)
+
+## Geometries
+**Geometries** contains the mesh used for multiple geometries benchmarks:
+- Single-edge notched plate submitted to tensile (**SENP-tensile**)
+- Single-edge notched plate submitted to shear (**SENP-shear**)
+- Three-point bending notched (**3Point-n**)
+- Three-point bending pre-cracked (**3Point-c**)
+- L-shaped panel (**L-shaped**)
+- Notched bilayer (**Bilayer**)
