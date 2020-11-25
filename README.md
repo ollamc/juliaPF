@@ -33,7 +33,7 @@ The **Others** folder contains new and/or non-validated implementation of the:
 - AT2 model (Bourdin et al. 2000)
 
 ## Geometries
-**Geometries** contains the mesh used for multiple geometries benchmarks:
+**Geometries** contains the mesh used for multiple geometries or benchmarks:
 - Single-edge notched plate submitted to tensile (**SENP-tensile**)
 - Single-edge notched plate submitted to shear (**SENP-shear**)
 - Three-point bending notched (**3Point-n**)
