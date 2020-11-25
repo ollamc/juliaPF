@@ -36,6 +36,6 @@ The **Others** folder contains new and/or non-validated implementation of the:
 **Geometries** contains the mesh used for multiple geometries or benchmarks:
 - Single-edge notched plate submitted to tensile (**SENP-tensile**).
 - Single-edge notched plate submitted to shear (**SENP-shear**).
-- Three-point bending notched (**3Point-n**).
+- Three-point bending notched beam (**3Point-n**).
 - L-shaped panel (**L-shaped**).
 - Notched bilayer (**Bilayer**).
