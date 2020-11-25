@@ -1,5 +1,5 @@
 # juliaPF
-<img align="right" width="240" height="240" src="/images/cover.PNG">
+<img align="right" width="220" height="220" src="/images/cover.PNG">
 Julia implementation(s) of phase-field models (PFMs) for fracture. 
 
 The script FEM.jl contains the Julia implementation of the quasi-static AT1 phase-field model.
