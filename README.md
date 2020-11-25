@@ -10,7 +10,7 @@ The script main_tensile.jl contains the pre-processing and settings of the probl
 ## Validation
 The **Validation** folder contains two examples of validation tests: 
 
-1. SENP-tensile from Miehe 2010. ***Attention***: The script FEM.jl used to validate against Miehe's results contains the AT2 model.
+1. SENP-tensile from Miehe 2010. ***Warning***: The script FEM.jl used to validate against Miehe's results contains the AT2 model.
 2. Uniaxial traction test from Pham et al. 2011 and reused in Wu et al. 2018 (see the reference documents in the validation directory).
 
 ## Dependencies and usage
