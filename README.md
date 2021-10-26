@@ -1,7 +1,7 @@
 # juliaPF
 <img align="right" width="220" height="220" src="/images/cover.PNG">
 
-**Julia implementation of a phase-field model for fracture.**
+**A Julia implementation of a phase-field model for fracture.**
 <br />
 
 The script `FEM.jl` contains the Julia implementation of the quasi-static **AT1** phase-field model with the volumetric-deviatoric split.
