@@ -22,7 +22,7 @@ SOFTWARE.
 
 ---
 
-Functions shapefcn(), jacobian(), elstiffness() were modified from
+Functions shapefcn(), jacobian(), elstiffness() were modified from the code available with
 
 [1] E. Martínez-Pañeda, A. Golahmar, C.F. Niordson. A phase field formulation for hydrogen assisted cracking. Computer Methods in Applied Mechanics and Engineering, 342: 742-761 (2018)
 
