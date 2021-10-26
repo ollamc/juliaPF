@@ -37,4 +37,5 @@ To run a simulation, 2 options are available:
 
 ## Notes
 This project is licensed under the terms of the MIT license.
+
 Author: Olivier Lampron
