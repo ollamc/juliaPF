@@ -28,7 +28,7 @@ To run a simulation, 2 options are available:
 	- Open and execute the `main.jl` file with Atom+Juno (`Ctrl + Shift + Enter` to execute the file).
 
 ## Validation
-The validation files contain the solution obtain for the **SENP-shear** test with the implemented model. The force-displacement solution is compared with results from the literature.
+The validation file contains the solution obtain for the **SENP-shear** test with the implemented model. The force-displacement solution is compared with results from the literature.
 
 ## Geometries
 **Geometries** contains the mesh used for multiple geometries or benchmarks:
