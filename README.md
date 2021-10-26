@@ -27,6 +27,9 @@ To run a simulation, 2 options are available:
 	- Open and execute the `FEM.jl` file with Atom+Juno (`Ctrl + Shift + Enter` to execute the file).
 	- Open and execute the `main.jl` file with Atom+Juno (`Ctrl + Shift + Enter` to execute the file).
 
+## Validation
+The validation files contain the solution obtain for the **SENP-shear** test with the implemented model. The force-displacement solution is compared with results from the literature.
+
 ## Geometries
 **Geometries** contains the mesh used for multiple geometries or benchmarks:
 - Single-edge notched plate submitted to tensile (**SENP-tensile**).
@@ -36,6 +39,6 @@ To run a simulation, 2 options are available:
 - Notched bilayer (**Bilayer**).
 
 ## Notes
-This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the MIT license (see `LICENSE.txt`).
 
 Author: Olivier Lampron
