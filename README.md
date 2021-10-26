@@ -11,7 +11,7 @@ Each time step is solved using the modified Newton scheme presented in
 
 A preprint of the paper is available at https://arxiv.org/abs/2109.05373.
 
-The script `main_tensile.jl` contains the pre-processing and settings of the problem. It calls the functions of `FEM.jl`.
+The script `main.jl` contains the pre-processing and settings of the problem. It calls the functions of `FEM.jl`.
 
 
 ## Dependencies and usage
@@ -19,13 +19,16 @@ The script `main_tensile.jl` contains the pre-processing and settings of the pro
 You might need to build Pardiso after adding the package with the command `Pkg.build("Pardiso")`. For more detail see the `Pardiso.jl` package documentation (https://github.com/JuliaSparse/Pardiso.jl).
 
 To run a simulation, 2 options are available:
-1. 	- Open a terminal and place yourself in the directory containing the mesh files, the `FEM.jl` script and `main_tensile.jl` script.
+1. 	- Open a terminal and place yourself in the directory containing the mesh files, the `FEM.jl` script and `main.jl` script.
 	- Open a Julia session (if properly installed, on Linux, simply call `julia`. Otherwise see Julia documentation).
 	- To read and compile the `FEM.jl` script, execute: 	`include("FEM.jl")`.
-	- To launch the simulation, execute: 			`include("main_tensile.jl")`.
+	- To launch the simulation, execute: 			`include("main.jl")`.
 2. If you are using Atom (text editor) and Juno (Atom environment for the Julia language), then simply:
 	- Open and execute the `FEM.jl` file with Atom+Juno (`Ctrl + Shift + Enter` to execute the file).
-	- Open and execute the `main_tensile.jl` file with Atom+Juno (`Ctrl + Shift + Enter` to execute the file).
+	- Open and execute the `main.jl` file with Atom+Juno (`Ctrl + Shift + Enter` to execute the file).
+
+## Validation
+The validation file contains the solution obtained for the **SENP-shear** test with the implemented model. The force-displacement solution is compared with results from the literature.
 
 ## Geometries
 **Geometries** contains the mesh used for multiple geometries or benchmarks:
@@ -36,6 +39,6 @@ To run a simulation, 2 options are available:
 - Notched bilayer (**Bilayer**).
 
 ## Notes
-This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the MIT license (see `LICENSE.txt`).
 
 Author: Olivier Lampron
