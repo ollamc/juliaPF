@@ -1,9 +1,0 @@
-J.-Y. Wu and V. P. Nguyen, “A length scale insensitive phase-field damage model for brittle fracture,” Journal of the Mechanics and Physics of Solids, vol. 119, pp. 20–42, Oct. 2018, doi: 10.1016/j.jmps.2018.06.006.
-
-****ATTENTION****
-
-The mechanical parameters given for the traction test (Section 3.1) are obviously wrong, since the slope of the force-displacement curve is clearly not E = 30 000 MPa.
-
-We can deduce from Figure 6(a) that the Young's modulus is probably ≈ 6 000 MPa. Consequently, to keep \sigma_c = 3.0 MPa, the length-scale (or typically l) should be b = 0.04 mm.
-
-Taking these parameters, we can reproduce Figure 6(a) with our code.
