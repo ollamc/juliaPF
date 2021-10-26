@@ -34,3 +34,7 @@ To run a simulation, 2 options are available:
 - Three-point bending notched beam (**3Point-n**).
 - L-shaped panel (**L-shaped**).
 - Notched bilayer (**Bilayer**).
+
+## Notes
+This project is licensed under the terms of the MIT license.
+Author: Olivier Lampron
