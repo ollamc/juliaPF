@@ -13,6 +13,8 @@ A preprint of the paper is available at https://arxiv.org/abs/2109.05373.
 
 The script `main.jl` contains the pre-processing and settings of the problem. It calls the functions of `FEM.jl`.
 
+This work was originally developped for the aforementionned publication. If you use this work, please cite this paper.
+
 
 ## Dependencies and usage
 `FEM.jl` relies on the Pardiso and WriteVTK library. You can add them to your environment using, in the Julia session, the command `Pkg.add("Pardiso")` or `Pkg.add("WriteVTK")`.
